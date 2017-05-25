@@ -1,0 +1,35 @@
+("this is a string")
+(defn add [& args] (apply + args)))
+(defn say [name & [lastname]] (println (str "hello " name (when lastname lastname)))) 
+(map #(* 2 %) [1 2 3])
+(map #(* 2 %) [1 2 3] #{1 2 2} {:name "james brown"} '(:a :b))
+"hello world"
+(def name "james brown")
+(def name "james brown" [test])
+(def name "james brown" (is cool))
+(def name "james") (defn greet (println "wow"))
+(println "hey!")
+(println "hey!") (println "hi")
+(print name) (inc 1)
+(print "yes") (inc 1)
+(-> (print "yes") (inc 1))
+hello
+"hello"
+(map 200)
+(fn [xs] (map #(* % 2) xs))
+a
+1
+(fn [a b] 1)
+(fn
+(map inc (1 2 3))
+(map inc (1 2 3)) (println 20)
+(println '(1 2 3))
+(->> (map inc '( 1 2)) (apply +))
+1
+1 2
+[1 2]
+'(1 2)
+(println 1)
+(println 1) (println 2)
+(-> (println 1) (map inc '(1 2 3)))
+(println 2)

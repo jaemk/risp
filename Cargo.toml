@@ -1,0 +1,11 @@
+[package]
+name = "risp"
+version = "0.1.0"
+authors = ["james"]
+
+[dependencies]
+error-chain = "0.8.1"
+regex = "0.2.1"
+lazy_static = "0.2.2"
+rustyline = "1.0.0"
+fraction = "0.3.4"
